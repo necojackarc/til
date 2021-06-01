@@ -12,7 +12,7 @@ ref: https://stackoverflow.com/questions/28721699/root-password-inside-a-docker-
 If you'd like to create a temporary container and log in to it as `root`, run:
 
 ```bash
-$ docker run -it --rm <IMAGE> bash
+$ docker run -it --rm -u 0 <IMAGE> bash
 ```
 
 ## `docker exec`
