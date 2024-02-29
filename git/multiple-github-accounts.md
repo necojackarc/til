@@ -39,3 +39,9 @@ If you use GPG to verify commits, you'd need to add the following, too:
 ```sh
 export GIT_CONFIG_PARAMETERS="'user.signingkey=<GPG_KEY_ID>' 'gpg.program=gpg2'"
 ```
+
+## VSCode
+
+As of 29 Feb. 2024, VS Code doesn't seem to perfectly support multiple GitHub accounts although you can log into multiple accounts. It doesn't allow you to use which account you use for which extension, to it's the safest to use only the main account, in most cases, your personal account.
+
+See https://github.com/microsoft/vscode/issues/127967 for more details.
