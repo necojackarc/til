@@ -1,0 +1,15 @@
+## ts-node: TypeScript Execution Engine and REPL for Node.js
+
+> ts-node is a TypeScript execution engine and REPL for Node.js.
+
+> It JIT transforms TypeScript into JavaScript, enabling you to directly execute TypeScript on Node.js without precompiling. This is accomplished by hooking node's module loading APIs, enabling it to be used seamlessly alongside other Node.js tools and libraries.
+
+Source: https://github.com/TypeStrong/ts-node
+
+## TypeScript REPL
+
+If this is in your `package.json`, it's available via `npx` (Node Package eXecute), which allows you to run npm packages.
+
+```sh
+npx ts-node
+```
