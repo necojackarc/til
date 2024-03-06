@@ -1,3 +1,3 @@
-# Today I Learned
+# TIL
 
-I'd rather spell Today I learnt though 🇬🇧
+📝 Today I learnt
