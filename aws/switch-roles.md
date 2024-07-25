@@ -1,4 +1,4 @@
-# AWS CLI Switch Roles
+# AWS Switch Roles
 
 To switch roles with AWS CLI, it seems like [granted](https://www.granted.dev/) is the best tool available in 2024.
 
