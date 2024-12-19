@@ -9,11 +9,11 @@ You can install it via [mise](https://mise.jdx.dev/).
 ```sh
 # Install AWS CLI via mise
 mise install awscli
-mise use -g awscli@<LATEST_VERSION>
+mise use -g awscli@latest
 
 # Install Granted via mise
 mise install granted
-mise use -g granted@<LATEST_VERSION>
+mise use -g granted@latest
 ```
 
 Then add `alias assume='source $(mise which assume)'`. See [Shell alias](https://docs.commonfate.io/granted/internals/shell-alias) for more details.
